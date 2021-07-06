@@ -1,0 +1,56 @@
+.fullPage {
+  height: 34rem;
+  width: 100%;
+  background-color: #eef2f5;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerPage {
+  // height: 70%;
+  // position: absolute;
+  width: 90%;
+  background-color: white;
+  // margin-left: 5%;
+  // margin-top: 5%;
+}
+
+.hereD {
+  color: rgb(110, 182, 255);
+  cursor: pointer;
+}
+.hereD:hover {
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}
+.btnLog {
+  border-radius: 4px;
+  background-color: #6eb6ff;
+  padding: 6px 60px;
+  color: #eef2f5;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #6eb6ff;
+  cursor: pointer;
+
+  /* Second Nav */
+  margin-left: 24px;
+}
+.btnLog:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #6eb6ff;
+}
+.credentialsBox {
+  height: 81%;
+  width: 45%;
+  /* background-color: lightgrey; */
+  margin: auto;
+  margin-top: 5%;
+
+  text-align: center;
+}
+.textSty {
+  color: #6c757d;
+  font-size: 1rem;
+}

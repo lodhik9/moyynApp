@@ -1,0 +1,84 @@
+.uploadBox {
+  /* position: absolute; */
+  /* height: 21rem; */
+  /* width: 60%;
+  background-color: white; */
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.box1 {
+  display: flex;
+  /* background-color: aqua; */
+  /* height: 50%; */
+}
+.dottedborderbox {
+  /* height: 85%;
+  width: 45%; */
+  border-style: dotted;
+  /* margin-top: 3%; */
+  margin-left: 3%;
+  border-color: rgb(158, 156, 156);
+  text-align: center;
+  padding: 1rem;
+}
+.textStyle {
+  font-size: 1rem;
+  /* padding: 12px; */
+}
+.submitupload {
+  /* padding-left: 10rem; */
+}
+.bottomTxt {
+  color: #6c757d;
+  /* padding-left: 20rem; */
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.dropDown1 {
+  /* width: 98%;
+  padding-left: 1rem; */
+}
+.btns1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.btnBack {
+  border-radius: 6px;
+  background-color: #555a60;
+  padding: 5px 80px;
+  color: #eef2f5;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #555a60;
+  cursor: pointer;
+}
+.btnBack:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #555a60;
+}
+.btnNext {
+  border-radius: 6px;
+  background-color: #6eb6ff;
+  padding: 5px 80px;
+  color: #eef2f5;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #6eb6ff;
+  cursor: pointer;
+}
+.btnNext:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #6eb6ff;
+}
+@media (max-width: 497px) {
+  .btnBack {
+    padding: 5px 30px !important;
+  }
+  .btnNext {
+    padding: 5px 30px !important;
+  }
+}

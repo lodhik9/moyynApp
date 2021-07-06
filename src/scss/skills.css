@@ -1,0 +1,68 @@
+.box {
+  background-color: white;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  width: 35rem;
+}
+.txt {
+  margin-top: 2%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555a60;
+}
+.straight {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.btnBox {
+  border-radius: 5px;
+  background-color: #555a60;
+  padding: 5px 80px;
+  color: #eef2f5;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #555a60;
+  cursor: pointer;
+}
+.btnBox:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #555a60;
+}
+.btnBox2 {
+  border-radius: 5px;
+  background-color: #6eb6ff;
+  padding: 5px 80px;
+  color: #eef2f5;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #6eb6ff;
+  cursor: pointer;
+}
+.btnBox2:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #6eb6ff;
+}
+.btn-1 {
+  color: white;
+}
+
+@media (max-width: 497px) {
+  .btnBoxP {
+    padding: 5px 30px !important;
+  }
+  .btnBox2P {
+    padding: 5px 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .straight{
+    display: block;
+  }
+  .box{
+    width: 100% !important;
+  }
+}

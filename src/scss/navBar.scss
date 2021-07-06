@@ -1,0 +1,57 @@
+.navbar {
+    margin: 0;
+    height: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 0.5rem 1rem 0.5rem 4rem !important;
+    border-bottom: 1px solid rgb(161, 154, 154);
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar-brand {
+        display: flex !important;
+        flex: 0.9;
+        padding: 0;
+        height: auto;
+
+        img {
+            width: 3rem;
+            height: 3rem;
+            object-fit: contain;
+        }
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .link {
+            padding: 0;
+            margin-right: 3rem;
+            width: fit-content;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 30px;
+            color: gray;
+
+            &:hover {
+                opacity: 0.5;
+                text-decoration: none;
+            }
+        }
+        .signupLink {
+            border: 1px solid blue;
+            padding: 0 1rem;
+            border-radius: 4px;
+            color: blue;
+        }
+
+        // .link.active {
+        //     color: #2fc89c;
+        // }
+    }
+}

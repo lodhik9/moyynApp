@@ -1,0 +1,126 @@
+.mainContainer {
+  //  background-color: gray;
+  height: 200vh;
+  margin-top: 6rem;
+}
+.firstComponent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.textDesign {
+  padding: 2rem;
+  text-align: center;
+  border-right: 1px solid lightgray;
+  // height: 70%;
+  // width: 45%;
+  // justify-content: center;
+  // align-items: center;
+  //  background-color: green;
+  // margin-top: 5%;
+}
+.firstText {
+  font-size: 1.5rem;
+  color: gray;
+  // margin-top: 7%;
+  // margin-left: 14%;
+}
+.secondText {
+  // margin-left: 14%;
+  font-size: 0.9rem;
+  color: gray;
+}
+.secondDiv {
+  // height: 90%;
+  // width: 47%;
+  //  background-color: yellow;
+  // margin-left: 5%;
+  // margin-top: 7%;
+}
+.inputRow {
+  display: flex;
+  margin-top: 1rem;
+}
+.field {
+  height: 10%;
+  width: 85%;
+  margin-top: 2%;
+  margin-left: 7%;
+  /* background-color: gray; */
+}
+.fieldDesign {
+  padding: 1rem;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 3%;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.fieldDesign2 {
+  padding: 25px;
+  height: 7vh;
+  width: 45%;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.fieldDesign3 {
+  padding: 25px;
+  height: 7vh;
+  width: 45%;
+  margin-left: 10%;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.empty {
+  height: 7vh;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 2%;
+  display: flex;
+}
+.button {
+  border-radius: 4px;
+  background-color: #6eb6ff;
+  padding: 6px 60px;
+  color: #fff;
+  box-shadow: 0 0 12px 2px #c2c2c2;
+  border: 1px solid #6eb6ff;
+  cursor: pointer;
+
+  /* Second Nav */
+  margin-left: 35%;
+}
+.button:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff !important;
+  color: #6eb6ff;
+}
+.text {
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.shortText {
+  color: blue;
+  cursor: pointer;
+  //  text-decoration: underline;
+}
+.shortText:hover {
+  transition: all 0.2s ease-in-out;
+
+  text-decoration: underline;
+}
+.react-switch {
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+@media (max-width: 775px) {
+  .firstComponent {
+    display: block;
+  }
+  .textDesign {
+    border-right: none;
+  }
+}
